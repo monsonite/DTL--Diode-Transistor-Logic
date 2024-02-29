@@ -13,7 +13,7 @@ A generic DTL 2-input NAND gate is shown below (Wikipedia):
 
 Pull down resistor R4 is often omitted, and R3 is often replaced with 2 diodes, forwards biassed by current flowing down R1. The 2 diodes in series provides a voltage "hurdle" of approximately 1.3V, which means that the voltage offset between logic low and logic high is Vbe +1.3V, which greatly improves noise immunity.
 
-In a fairly recent development by Tim Boscke, R3 was satisfactorily replaced with a red or green LED, which not only provides a suitable forward voltage drop, but illuminates to indicate when the tranistor is in the saturated on state.  Tim Boscke has produced a simple CPU using the LED-Transistor Logic - and this article describes the logic and its characteristics in detail.
+In a fairly recent development by Tim Boscke, R3 has satisfactorily replaced with a red or green LED, which not only provides a suitable forward voltage drop, but illuminates to indicate when the tranistor is in the saturated on state.  Tim Boscke has produced a simple CPU using the LED-Transistor Logic - and this article describes the logic and its characteristics in detail.
 
 
 https://hackaday.io/project/169948-lcpu-a-cpu-in-led-transistor-logic-ltl
